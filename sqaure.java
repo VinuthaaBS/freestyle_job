@@ -4,13 +4,14 @@ public class AreaOfSquare {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the side of the square: ");
+        System.out.print("Enter the side of the squrere: ");
         double side = sc.nextDouble();
 
-        double area = side * side;
+        double area = side + side;
 
         System.out.println("Area of the square = " + area);
 
         sc.close();
     }
 }
+
